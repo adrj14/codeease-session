@@ -4,9 +4,9 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: linear-gradient(135deg, #282c34, #3a3f47);
-  color: #fff;
-  font-family: Arial, sans-serif;
+  background-color: #28443c;
+  color: #ffc4b3;
+  font-family: 'Modak', sans-serif;
   padding: 1rem;
   box-sizing: border-box;
 }
@@ -15,12 +15,13 @@
   font-size: 3.5rem;
   margin-bottom: 1rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: #ffc4b3;
 }
 
 .subtitle {
   font-size: 1.75rem;
   margin-bottom: 2.5rem;
-  color: #dcdcdc;
+  color: #e5e5e5;
 }
 
 .buttonContainer {
@@ -32,8 +33,8 @@
   padding: 0.75rem 2rem;
   font-size: 1.1rem;
   font-weight: bold;
-  color: #fff;
-  background-color: #007bff;
+  color: #28443c;
+  background-color: #ffc4b3;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -42,7 +43,7 @@
 }
 
 .button:hover {
-  background-color: #0056b3;
+  background-color: #e1b8a3;
   transform: translateY(-2px);
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
 }
